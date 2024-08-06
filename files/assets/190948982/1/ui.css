@@ -119,11 +119,11 @@
 
 #info-panel {
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+/*     top: 2rem;
+    right: 2rem; */
     background: rgba(39, 39, 39, 0.4);
     color: white;
-    padding: 1.4rem;
+    padding: 12px;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
     pointer-events: auto;
     max-width: 90%;
@@ -136,8 +136,8 @@
 
 #info-panel .full-width {
     width: 100%;
-    margin-bottom: 10px; /* Add margin to separate from columns */
-}
+/*     margin-bottom: 10px; /* Add margin to separate from columns */
+} */
 
 #info-panel .columns {
     display: flex; /* Use flexbox to align columns side by side */
@@ -176,7 +176,7 @@
 #info-panel #description {
   opacity: 1;
   line-height: 1.15rem;
-  font-size: .8rem;
+  font-size: 10px;
 }
 
 /* FOOTER */
